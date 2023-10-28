@@ -1,2 +1,5 @@
 # loginUFGD
- Ideia de interface de login minimalista para alunos da UFGD
+## Status
+⚠️ Em desenvolvimento ⚠️
+## Descricão
+Ideia de interface de login minimalista para alunos da UFGD
