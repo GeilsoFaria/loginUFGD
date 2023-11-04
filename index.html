@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login UFGD</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaQuery.css">
 </head>
 
 <body>
     <main>
         <section id="login">
-            <img src="imagens/ufgd-logo.jpg" alt="Logo UFGD">
+            <div id="imagem"></div>
             <div id="formulario">
                 <form action="login.php" method="post">
                     <div class="campos">
-                        <label for="idCpf">CPF</label>
-                        <input type="text" name="cpf" id="idCpf" required pattern="^\d{11}$" placeholder="00122233344">
+                        <label for="idCpf">Usuário</label>
+                        <input type="text" name="cpf" id="idCpf" required pattern="^\d{11}$" placeholder=" 00011122244">
                     </div>
 
                     <div class="campos">

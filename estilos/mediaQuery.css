@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, #749619 , #5D7C2A, #007131);
+    }
+    /*#C7D40C*/
+    section#login {
+        width: 600px;
+        height: 250px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.696);
+        
+    }
+    div#imagem {
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        width: 30%;
+        height: 100%;
+        /* top: 50%; */
+        
+    }
+    div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+    
+}
+@media screen and (min-width:993px)  {
+    body {
+        /* background-image: linear-gradient(to right, rgb(102, 183, 102), rgb(0, 203, 3), rgb(0, 108, 0)); */
+        background-image: linear-gradient(to bottom, #749619 , #5D7C2A, #007131);
+    }
+    section#login {
+        width: 800px;
+        height: 300px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.696);
+        
+    }
+    div#imagem {
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    div#formulario {
+        padding-top: 3%;
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    
+}
